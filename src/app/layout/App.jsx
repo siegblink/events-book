@@ -1,10 +1,11 @@
 import React from 'react'
-import './styles.css'
+import EventDashboard from '../../features/events/eventDashboard/EventDashboard'
 
 export default function App() {
   return (
-    <div className='App'>
+    <div>
       <h1>Events book</h1>
+      <EventDashboard />
     </div>
   )
 }
